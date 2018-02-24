@@ -31,6 +31,9 @@ header {
 
 header span {
   color: mediumaquamarine;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Verdana;
 }
 
 header li {
@@ -46,6 +49,10 @@ header a{
 /* Styles the 1st and 2nd columns */
 div {
   display: block;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 .content {
@@ -75,6 +82,8 @@ div {
 
 .narrative {
   padding: 16px 0px;
+  font-family: arial serif;
+  font-size: 19px;
 }
 
 .stories {
@@ -102,19 +111,21 @@ div {
 }
 
 .main-img {
+  display: flex;
   font-weight: bold;
   font-size: 40px;
   color: white;
   height: 300px;
   width: 630px;
   text-align: left;
+  align-items: center;
   background-image: url("../resources/images/img-story-main.png");
 }
 
 .image-content {
   display: flex;
   flex-direction: column;
-  justify-content: Top;
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   font-family: georgia;
