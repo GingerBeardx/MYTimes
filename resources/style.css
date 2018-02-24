@@ -62,20 +62,24 @@ div {
   border: 1px black solid; /* Just for placement - remove when complete */
 }
 
-.column-large {
-  margin-top: 150px;
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
   border: 1px solid black;
   width: 630px;
 }
 
-.column-medium {
+.column.medium {
   border: 1px solid black;
   width: 300px;
 }
 
-.column-small {
+.column.small {
   border: 1px solid black;
-  margin-bottom: 50px;
   width: 240px;
 }
 
