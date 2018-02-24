@@ -48,6 +48,7 @@ header a{
 
 div {
   border: 1px solid black;
+  display: block;
 }
 
 .content {
@@ -103,17 +104,29 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .main-img {
-  font-family: georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   height: 300px;
-  width: 629px;
-  display: flex;
+  width: 630px;
+  text-align: left;
   background-image: url("../resources/images/img-story-main.png");
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: Top;
+  height: 300px;
+  margin-top: 15px;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .memory-loss {
