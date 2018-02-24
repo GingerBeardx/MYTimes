@@ -45,26 +45,48 @@ header a{
 }
 
 /* body style */
-p, h1, span {
+p, h2, h3, span {
   margin: 3px;
+  font-family: "Times New Roman";
+}
+
+div {
+  border: 1px solid black;
 }
 
 .content {
-  display: block;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
   border: 1px black solid; /* Just for placement - remove when complete */
-  position:inherit;
 }
 
 .column-large {
-  margin-top: 50px;
+  margin-top: 150px;
   border: 1px solid black;
+  width: 630px;
 }
 
 .column-medium {
   border: 1px solid black;
+  width: 300px;
 }
 
 .column-small {
   border: 1px solid black;
   margin-bottom: 50px;
+  width: 240px;
+}
+
+.main-story {
+  border: 1px solid black;
+}
+
+.main-img {
+  border: 1px solid black;
+}
+
+.narrative {
+  padding: 16px 0px;
 }
